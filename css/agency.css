@@ -231,6 +231,9 @@ fieldset[disabled] .btn-xl.active {
     color: #fff;
     background-color: #808080;
 }
+.navbar-fixed-top{
+    color:#808080;
+}
 
 @media(min-width:768px) {
     .navbar-default {

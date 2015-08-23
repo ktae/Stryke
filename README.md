@@ -1,4 +1,4 @@
-# [Start Bootstrap](http://startbootstrap.com/) - [Agency](http://startbootstrap.com/template-overviews/agency/)
+# Source ode for FTC 6210 website, based on [Agency](http://startbootstrap.com/template-overviews/agency/) template
 
 ## Copyright and License
 
