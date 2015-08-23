@@ -1,4 +1,4 @@
-# Source ode for FTC 6210 website, based on [Agency](http://startbootstrap.com/template-overviews/agency/) template
+# Prototype of our Robotics team's website, based on [Agency](http://startbootstrap.com/template-overviews/agency/) template
 
 ## Copyright and License
 
