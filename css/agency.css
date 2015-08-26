@@ -3,6 +3,14 @@
  * Code licensed under the Apache License v2.0.
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
+ @font-face {
+     font-family: 'norwester';
+ 	src: url('../fonts/norwester/norwester.eot');
+     src: url('../fonts/norwester/norwester.eot?iefix') format('embedded-opentype'),
+ 		 url('../fonts/norwester/norwester.ttf');
+     font-weight: normal;
+ }
+
 
 body {
     overflow-x: hidden;
@@ -177,7 +185,7 @@ fieldset[disabled] .btn-xl.active {
 }
 
 .navbar-default .navbar-brand {
-    font-family: "Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive;
+    font-family: "norwester";
     color: #0066CC;
 }
 
