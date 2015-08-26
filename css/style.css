@@ -1,0 +1,80 @@
+
+/* 01. GENERAL SETTINGS ============================================ */
+
+* {margin: 0; padding: 0;}
+section {
+	background-color: #f7f7f7;
+}
+p {line-height: 160%;}
+
+a.member-profile {text-decoration: none; color: #fff; transition: all 0.1s ease-in;}
+img {border: 0;}
+
+div.col-md-3 {
+	font-family: 'PT Sans Narrow', sans-serif;
+	font-size: 13px;
+	font-weight: 300;
+}
+
+
+
+.separator {
+	margin: 0 auto;
+	background: rgba(0, 0, 0, 0.2);
+	width: 30px;
+	height: 5px;
+}
+
+
+@font-face {
+    font-family: 'norwester';
+	src: url('../fonts/norwester/norwester.eot');
+    src: url('../fonts/norwester/norwester.eot?iefix') format('embedded-opentype'),
+		 url('../fonts/norwester/norwester.ttf');
+    font-weight: normal;
+}
+
+#members {
+	padding: 60px 0;
+	background: #4593e3;
+	text-align: center;
+}
+
+#members p {
+	padding: 20px 0 60px;
+	color: rgba(255,255,255, 0.85);
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	letter-spacing: 0.2px;
+}
+
+#members h3 {
+	padding: 0 0 15px;
+	font-family: 'norwester';
+	font-size: 36px;
+	text-transform: uppercase;
+}
+
+#members h4  {
+	padding-top:25px;
+	margin-top: -20px;
+	font-size: 34px;
+	font-weight: 700;
+}
+
+
+.row .col-md-3{
+	padding-bottom: 40px;
+}
+
+/* Mobile Devices Optimization */
+@media (min-width: 568px) and (max-width: 992px) {
+
+	.row .col-md-3, {
+		display: inline-block;
+		max-width: 50%;
+	}
+
+	#members img {max-width: 300px;}
+
+}
