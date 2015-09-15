@@ -1,4 +1,1 @@
-# Prototype of our Robotics team's website
-
-
-yeahh..
+# Source Code of our FTC team's website
