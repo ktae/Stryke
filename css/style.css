@@ -18,18 +18,29 @@ div.col-md-3 {
 i {
     padding:10px
 }
+/*
 .col-sm-4 .img-circle {
-	width:280px;
-	height:190px;
+	width:300px;
+	height:300px
 }
 .col-sm-3 .img-circle {
-	width:280px;
-	height:190px;
+	width:100px;
+	height:100px;
 }
 
 .col-sm-12 .img-circle {
-	width:280px;
-	height:190px;
+	width:100px;
+	height:100px;
+}
+*/
+
+.img-circle {
+    width: 35vh;
+    height: 35vh;
+}
+.col-lg-8 .img-circle {
+    width:60%;
+    height: 60%;
 }
 
 
@@ -85,16 +96,4 @@ i {
 
 .row .col-md-3{
 	padding-bottom: 40px;
-}
-
-/* Mobile Devices Optimization */
-@media (min-width: 568px) and (max-width: 992px) {
-
-	.row .col-md-3, {
-		display: inline-block;
-		max-width: 50%;
-	}
-
-	#members img {max-width: 300px;}
-
 }
