@@ -1866,12 +1866,7 @@ meta.foundation-data-attribute-namespace {
 html, body {
   height: 100%; }
 
-*,
-*:before,
-*:after {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box; }
+
 
 html,
 body {
@@ -4735,7 +4730,7 @@ i.fa {
             left: 0;
             width: 100%;
             height: 0px;
-            border-bottom: 1px solid #e9003c;
+            border-bottom: 1px solid rgba(0, 102, 204, 0.7);
             bottom: 2px;
             -webkit-transform: scaleX(0);
             -ms-transform: scaleX(0);
@@ -4743,7 +4738,7 @@ i.fa {
             -webkit-transition: -webkit-transform 0.2s ease-in;
             transition: transform 0.2s ease-in; }
           .header nav.menu-holder ul li a:hover {
-            color: #e9003c; }
+            color:deepskyblue;}
             .header nav.menu-holder ul li a:hover:after {
               -webkit-transform: scaleX(1);
               -ms-transform: scaleX(1);
