@@ -781,6 +781,7 @@
 }
 .fa-envelope:before {
   content: "\f0e0";
+    color: black;
 }
 .fa-linkedin:before {
   content: "\f0e1";
